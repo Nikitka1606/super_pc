@@ -1,9 +1,9 @@
 header{
-    position: relative;
-    width: 100vw;
-    height: 5vw;
-    left: -8px;
-    top: -14px;
+    position: absolute;
+    width: 1280px;
+    height: 58px;
+    left: 0px;
+    top: -1px;
     background-color: #292929;
     font-family: Helvetica;
     color: #9A9A9A;
@@ -11,21 +11,284 @@ header{
 }
 
 .logo{ 
-    font-size: 3vw;
-    margin-top: 1vw;
+    position: absolute;
+    width: 270px;
+    height: 58px;
+    left: 27px;
+    top: -46px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
 }
 
 .contacts{
-    font-size: 2vw;
-    margin-top: -6vw;
-    margin-left: 80vw;
+    position: absolute;
+    width: 88px;
+    height: 19px;
+    left: 992px;
+    top: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+
+.about{
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    left: 1132px;
+    top: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
 }
 
 .slider{
     position: absolute;
-    width: 100vw;
-    height: 730px;
-    margin-left: -8px;
-    margin-top: -14px;
-    background-color: black;
+    width: 1284px;
+    height: 729px;
+    left: -4px;
+    top: 57px;
+    background: #000000;
+}
+
+.purple_lines{
+    position: absolute;
+    width: 1284px;
+    height: 729px;
+    left: 0px;
+    top: 0px;
+    border-radius: 364.743px;
+}
+
+.girl {
+    position: absolute;
+    width: 1280px;
+    height: 727px;
+    left: 3.14px;
+    top: 2.04px;
+    border-radius: 363.92px;
+}
+
+.pc_purple{
+    position: absolute;
+    width: 1331.33px;
+    height: 749.13px;
+    left: -38px;
+    top: -7.13px;
+}
+
+.shadow{
+    position: absolute;
+    width: 1278px;
+    height: 729px;
+    left: 6px;
+    top: 0px;
+}
+
+.rgb_text{
+    position: absolute;
+    width: 418px;
+    height: 60px;
+    left: 90px;
+    top: 310px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #9B9B9B;
+}
+
+.design{
+    position: absolute;
+    width: 508.42px;
+    height: 116.58px;
+    left: 89.45px;
+    top: 200.68px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.proc_shot{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1280px;
+    height: 540px;
+    left: 0px;
+    top: 786px;
+    box-shadow: inset 0px 4px 50px 40px #000000;
+}
+
+.shadow_proc{
+    position: absolute;
+    width: 1516px;
+    height: 540px;
+    left: -236px;
+    top: 786px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.proc_text{
+    position: absolute;
+    width: 347.22px;
+    height: 68px;
+    left: 841px;
+    top: 836px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.intel{
+    position: absolute;
+    width: 136.09px;
+    height: 58px;
+    left: 1052px;
+    top: 888px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #787878;
+}
+
+.amd{
+    position: absolute;
+    width: 110.07px;
+    height: 58px;
+    left: 1084px;
+    top: 939px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #787878;
+}
+
+.video{
+    position: absolute;
+    width: 1280px;
+    height: 540px;
+    left: 0px;
+    top: 663px;
+}
+
+.shadow_video{
+    position: absolute;
+    width: 1571px;
+    height: 540px;
+    left: 0px;
+    top: 663px;
+}
+
+.video_text{
+    position: absolute;
+    width: 549px;
+    height: 78px;
+    left: 90px;
+    top: 750px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.nvidia{
+    position: absolute;
+    width: 161px;
+    height: 58px;
+    left: 90px;
+    top: 801px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #787878;
+}
+
+.amd_vid{
+    position: absolute;
+    width: 161px;
+    height: 58px;
+    left: 90px;
+    top: 852px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #787878;
+}
+
+.assemble_shot{
+    position: absolute;
+    width: 1280px;
+    height: 742px;
+    left: 0px;
+    top: 1847px;
+}
+
+.shadow_assemble{
+    position: absolute;
+    width: 1523px;
+    height: 742px;
+    left: -244px;
+    top: 1847px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.assemble_text{
+    position: absolute;
+    width: 530px;
+    height: 232px;
+    left: 658px;
+    top: 1928px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+footer{
+    position: absolute;
+    width: 1280px;
+    height: 44px;
+    left: 0px;
+    top: 2589px;
+    background: #343434;
+    }
+
+.f_text{
+    position: absolute;
+    width: 183px;
+    height: 13px;
+    left: 39px;
+    top: 2px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.f_ooo{
+    position: absolute;
+    width: 119px;
+    height: 13px;
+    left: 1069px;
+    top: 2px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
 }
