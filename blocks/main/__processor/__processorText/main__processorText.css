@@ -1,0 +1,15 @@
+.main__processorText{
+    margin-top: -350px;
+    margin-left: 790px;
+    width: 350px;
+    height: 58px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 48px;
+    color: #787878;
+}
+
+ul{
+    list-style-type: none;
+    text-align: right;
+}

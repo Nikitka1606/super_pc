@@ -1,3 +1,9 @@
-.header{
-  
+header{
+    width: 1280px;
+    height: 58px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #292929;
+    font-family: Helvetica;
+    color: #9A9A9A;
 }

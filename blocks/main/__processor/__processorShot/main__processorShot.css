@@ -1,0 +1,9 @@
+.main__processorShot{
+    background:center/100% url('../../../../images/proc.jpg');
+    background-size: 1300px;
+    margin-bottom: -14px;
+    object-fit: cover;
+    width: 1280px;
+    height: 540px;
+    box-shadow: inset 0px 160px 50px -80px #000000;
+}

@@ -1,55 +1,57 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        
         <meta charset="UTF-8"/>
         <title> SUPER PC </title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="pages/index.css">
     </head>
-        
-    <header>
-        <p class="logo"> SUPER PC </p>
-        <p class="contacts"> КОНТАКТЫ </p>  
-        <p class="about"> О НАС </p> 
-    </header>
 
     <body>
+        <header>
+            <h1 class="header__title"> SUPER PC </h1>
+            <h2 class="header__contacts"> КОНТАКТЫ </h2>  
+            <h3 class="header__about"> О НАС </h3>
+        </header>
+        
         <div class="slider">
-            <img class="purple_lines" src="images/purple_lines.png">
-            <img class="pc_purple" src="images/pc_purple.png">
-            <img class="girl" src="images/anime_girl.png">
-            <img class="shadow" src="images/shadow.png">
-            <p class="rgb_text"> RGB ПОДСВЕТКА </p> 
-            <p class="design"> ДИЗАЙН <br> НА ЛЮБОЙ ВКУС </p>
+            <img class="slider__purpleLines" src="images/purple_lines.png">
+            <img class="slider__purplePc" src="images/pc_purple.png">
+            <img class="slider__girl" src="images/anime_girl.png">
+            <img class="slider__shadow" src="images/shadow.png">
+            <h4 class="slider__rgbText"> ДИЗАЙН <br> НА ЛЮБОЙ ВКУС </h4>
+            <h5 class="slider__rgbText__greyText"> RGB ПОДСВЕТКА </h5> 
         </div>
 
-        <div class="proc">
-            <img class="proc_shot" src="images/proc.jpg">
-            <img class="shadow_proc" src="images/shadow.png">
-            <p class="proc_text"> ПРОЦЕССОРЫ </p>
-            <p class="amd"> AMD </p>
-            <p class="intel"> INTEL </p>
+        <div class="main">
+            <div class="main__processor">
+                <div class="main__processorShot"></div>
+                <img class="main__processorShadow" src="images/shadow.png">
+                <ul class="main__processorText">
+                    <li class="main__processorName"> ПРОЦЕССОРЫ </li>
+                    <li class="main__processorIntel"> INTEL </li>
+                    <li class="main__processorAmd"> AMD </li>
+                </ul>
+            </div>
+
+            <div class="main__videocard">
+                <img class="video" src="images/video_card.jpg">
+                <img class="shadow_video" src="images/shadow.png">
+                <li class="video_text"> ВИДЕОКАРТЫ </h8>
+                <p class="nvidia"> NVIDIA <br> AMD </p>
+            </div>
+
+            <div class="assemble">
+                <img class="assemble_shot" src="images/assembly.png">
+                <img class="shadow_assemble" src="images/shadow.png">
+                <p class="assemble_text"> СОБЕРЕМ ВАШ ПК<br>
+                    БЫСТРО И НАДЁЖНО,<br>
+                    А САМОЕ ГЛАВНОЕ - <br>
+                    СО ВКУСОМ </p>
+            </div>
         </div>
 
-        <div class="video">
-            <img class="video" src="images/video_card.jpg">
-            <img class="shadow_video" src="images/shadow.png">
-            <p class="video_text"> ВИДЕОКАРТЫ </p>
-            <p class="nvidia"> NVIDIA </p>
-            <p class="amd_vid"> AMD </p>
-        </div>
-
-        <div class="assemble">
-            <img class="assemble_shot" src="images/assembly.png">
-            <img class="shadow_assemble" src="images/shadow.png">
-            <p class="assemble_text"> СОБЕРЕМ ВАШ ПК<br>
-                БЫСТРО И НАДЁЖНО,<br>
-                А САМОЕ ГЛАВНОЕ - <br>
-                СО ВКУСОМ </p>
-        </div>
+        <footer>
+            <p class="footer__text"> ALL RIGHTS RESERVED 2022 </p>
+            <p class="footer__companyName"> ООО «супер писи» </p>
+        </footer>
     </body>
-
-    <footer>
-        <p class="f_text"> ALL RIGHTS RESERVED 2022 </p>
-        <p class="f_ooo"> ООО «супер писи» </p>
-    </footer>

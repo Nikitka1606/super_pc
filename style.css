@@ -204,6 +204,7 @@ header{
 .nvidia{
     position: absolute;
     width: 161px;
+
     height: 58px;
     left: 90px;
     top: 801px;
@@ -258,37 +259,5 @@ header{
     color: #FFFFFF;
 }
 
-footer{
-    position: absolute;
-    width: 1280px;
-    height: 44px;
-    left: 0px;
-    top: 2589px;
-    background: #343434;
-    }
 
-.f_text{
-    position: absolute;
-    width: 183px;
-    height: 13px;
-    left: 39px;
-    top: 2px;
-    font-family: Helvetica;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
 
-.f_ooo{
-    position: absolute;
-    width: 119px;
-    height: 13px;
-    left: 1069px;
-    top: 2px;
-    font-family: Helvetica;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 16px;
-    color: #FFFFFF;
-}

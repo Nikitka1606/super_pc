@@ -1,0 +1,6 @@
+.main__processorShadow{
+    width: 1280px;
+    height: 540px;
+    margin-top: -540px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}

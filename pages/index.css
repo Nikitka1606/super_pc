@@ -6,7 +6,29 @@
 /* Header */ 
 @import '../blocks/header/header.css';
 @import '../blocks/header/__title/header__title.css';
+@import '../blocks/header/__about/header__about.css';
+@import '../blocks/header/__contacts/header__contacts.css';
 /* Main */
 @import '../blocks/main/main.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
+@import '../blocks/footer/footer__companyName/_companyName.css';
+@import '../blocks/footer/footer__text/_text.css';
+/* Slider */
+@import '../blocks/slider/__girl/slider__girl.css';
+@import '../blocks/slider/__purpleLines/slider__purpleLines.css';
+@import '../blocks/slider/__purplePc/slider__purplePc.css';
+@import '../blocks/slider/__shadow/slider__shadow.css';
+@import '../blocks/slider/__rgbText/slider__rgbText.css';
+@import '../blocks/slider/__rgbText/__greyText/slider__greyText.css';
+@import '../blocks/slider/slider.css';
+/* Processor */
+@import '../blocks/main/__processor/main__processor.css';
+@import '../blocks/main/__processor/__processorShadow/main__processorShadow.css';
+@import '../blocks/main/__processor/__processorShot/main__processorShot.css';
+@import '../blocks/main/__processor/__processorText/main__processorText.css';
+@import '../blocks/main/__processor/__processorText/__processorNames/main__processorName.css';
+@import '../blocks/main/__processor/__processorText/__processorNames/__processorCompanies/main__processorAmd.css';
+@import '../blocks/main/__processor/__processorText/__processorNames/__processorCompanies/main__processorIntel.css';
+/* Videocard */
+
