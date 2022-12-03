@@ -1,0 +1,6 @@
+.main__videocard-shadow{
+    background:center/100% url('../../../../images/shadow.png');
+    width: 1280px;
+    height: 540px;
+    margin-top: -540px;
+}

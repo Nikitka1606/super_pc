@@ -1,5 +1,6 @@
 .slider__shadow{
+    background:center/102% url('../../../images/shadow.png');
     width: 1280px;
     height: 729px;
-    margin-top: -715px;
+    margin-top: -729px;
 }

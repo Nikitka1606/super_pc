@@ -1,0 +1,6 @@
+.main__processor-shadow{
+    background:center/100% url('../../../../images/shadow_mir.png');
+    width: 1280px;
+    height: 540px;
+    margin-top: -540px;
+}

@@ -1,7 +1,5 @@
-.footer__companyName{
-    width: 119px;
-    height: 13px;
-    margin-top: -11px;
+.footer__company-name{
+    margin-top: 0px;
     margin-left: 1083px;
     font-family: Helvetica;
     font-weight: 400;

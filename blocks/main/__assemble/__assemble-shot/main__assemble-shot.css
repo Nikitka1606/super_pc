@@ -1,0 +1,8 @@
+.main__assemble-shot{
+    background:center/100% url('../../../../images/assembly.png');
+    background-size: 1500px;
+    margin-bottom: -14px;
+    object-fit: cover;
+    width: 1280px;
+    height: 720px;
+}

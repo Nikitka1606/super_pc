@@ -1,4 +1,4 @@
-.main__processorText{
+.main__processor-text{
     margin-top: -350px;
     margin-left: 790px;
     width: 350px;
@@ -9,7 +9,7 @@
     color: #787878;
 }
 
-ul{
+#main__processor-nav ul{
     list-style-type: none;
     text-align: right;
 }

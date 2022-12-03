@@ -1,0 +1,7 @@
+.slider__purple-lines{
+    background:center/102% url('../../../images/purple_lines.png');
+    object-fit: cover;
+    width: 1280px;
+    height: 729px;
+    border-radius: 365px;
+}

@@ -1,0 +1,7 @@
+.slider__purple-pc{
+    background:center/102% url('../../../images/pc_purple.png');
+    object-fit: cover;
+    margin-top: -729px;
+    width: 1280px;
+    height: 729px;
+}

@@ -12,23 +12,34 @@
 @import '../blocks/main/main.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
-@import '../blocks/footer/footer__companyName/_companyName.css';
-@import '../blocks/footer/footer__text/_text.css';
+@import '../blocks/footer/__company-name/footer__company-name.css';
+@import '../blocks/footer/__text/footer__text.css';
 /* Slider */
 @import '../blocks/slider/__girl/slider__girl.css';
-@import '../blocks/slider/__purpleLines/slider__purpleLines.css';
-@import '../blocks/slider/__purplePc/slider__purplePc.css';
+@import '../blocks/slider/__purple-lines/slider__purple-lines.css';
+@import '../blocks/slider/__purple-pc/slider__purple-pc.css';
 @import '../blocks/slider/__shadow/slider__shadow.css';
-@import '../blocks/slider/__rgbText/slider__rgbText.css';
-@import '../blocks/slider/__rgbText/__greyText/slider__greyText.css';
+@import '../blocks/slider/__rgb-text/slider__rgb-text.css';
+@import '../blocks/slider/__rgb-text/__grey-text/slider__grey-text.css';
 @import '../blocks/slider/slider.css';
 /* Processor */
 @import '../blocks/main/__processor/main__processor.css';
-@import '../blocks/main/__processor/__processorShadow/main__processorShadow.css';
-@import '../blocks/main/__processor/__processorShot/main__processorShot.css';
-@import '../blocks/main/__processor/__processorText/main__processorText.css';
-@import '../blocks/main/__processor/__processorText/__processorNames/main__processorName.css';
-@import '../blocks/main/__processor/__processorText/__processorNames/__processorCompanies/main__processorAmd.css';
-@import '../blocks/main/__processor/__processorText/__processorNames/__processorCompanies/main__processorIntel.css';
+@import '../blocks/main/__processor/__processor-shadow/main__processor-shadow.css';
+@import '../blocks/main/__processor/__processor-shot/main__processor-shot.css';
+@import '../blocks/main/__processor/__processor-text/main__processor-text.css';
+@import '../blocks/main/__processor/__processor-text/__processor-names/main__processor-name.css';
+@import '../blocks/main/__processor/__processor-text/__processor-names/__processor-companies/main__processor-amd.css';
+@import '../blocks/main/__processor/__processor-text/__processor-names/__processor-companies/main__processor-intel.css';
 /* Videocard */
-
+@import '../blocks/main/__videocard/main__videocard.css';
+@import '../blocks/main/__videocard/__videocard-shadow/main__videocard-shadow.css';
+@import '../blocks/main/__videocard/__videocard-shot/main__videocard-shot.css';
+@import '../blocks/main/__videocard/__videocard-text/main__videocard-text.css';
+@import '../blocks/main/__videocard/__videocard-text/__videocard-names/main__videocard-name.css';
+@import '../blocks/main/__videocard/__videocard-text/__videocard-names/__videocard-companies/main__videocard-amd.css';
+@import '../blocks/main/__videocard/__videocard-text/__videocard-names/__videocard-companies/main__videocard-nvidia.css';
+/* Assemble */
+@import '../blocks/main/__assemble/main__assemble.css';
+@import '../blocks/main/__assemble/__assemble-text/main__assemble-text.css';
+@import '../blocks/main/__assemble/__assemble-shot/main__assemble-shot.css';
+@import '../blocks/main/__assemble/__assemble-shadow/main__assemble-shadow.css';

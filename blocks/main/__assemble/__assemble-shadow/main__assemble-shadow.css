@@ -1,0 +1,6 @@
+.main__assemble-shadow{
+    background:center/100% url('../../../../images/shadow_mir.png');
+    width: 1280px;
+    height: 720px;
+    margin-top: -720px;
+}
