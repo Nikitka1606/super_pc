@@ -8,9 +8,13 @@
 
     <body>
         <header>
-            <h1 class="header__title"> SUPER PC </h1>
-            <h2 class="header__contacts"> КОНТАКТЫ </h2>  
-            <h3 class="header__about"> О НАС </h3>
+            <a class="header__title"> SUPER PC </a> 
+            <div id="header__nav">
+                <ul class="header__info">
+                    <li class="header__contacts"> КОНТАКТЫ </li>  
+                    <li class="header__about"> О НАС </li>
+                </ul>
+            </div>
         </header>
         
         <div class="slider">
@@ -18,8 +22,12 @@
             <div class="slider__purple-pc"></div>
             <div class="slider__girl"></div>
             <div class="slider__shadow"></div>
-            <h4 class="slider__rgb-text"> ДИЗАЙН <br> НА ЛЮБОЙ ВКУС </h4>
-            <h5 class="slider__rgb-text__grey-text"> RGB ПОДСВЕТКА </h5> 
+            <div id="slider__text">
+                <ul class="slider__rgb-text">
+                    <li class="slider__white-text"> ДИЗАЙН <br> НА ЛЮБОЙ ВКУС </li>
+                    <li class="slider__grey-text"> RGB ПОДСВЕТКА </li>
+                </ul> 
+            </div>
         </div>
 
         <main class="main">
@@ -58,7 +66,9 @@
         </main>
 
         <footer>
-            <h6 class="footer__text"> ALL RIGHTS RESERVED 2022 </h6>
-            <h7 class="footer__company-name"> ООО «супер писи» </h7>
+            <div class="footer__text">
+                <div class="footer__rights"> ALL RIGHTS RESERVED 2022 </div>
+                <div class="footer__company-name"> ООО «супер писи» </div>
+            </div>
         </footer>
     </body>

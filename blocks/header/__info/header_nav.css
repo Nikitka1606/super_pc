@@ -1,0 +1,11 @@
+.header__nav{
+    width: 1080px;
+    height: 58px;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Helvetica;
+    position:relative;
+}

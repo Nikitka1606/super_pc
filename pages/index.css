@@ -6,21 +6,26 @@
 /* Header */ 
 @import '../blocks/header/header.css';
 @import '../blocks/header/__title/header__title.css';
-@import '../blocks/header/__about/header__about.css';
-@import '../blocks/header/__contacts/header__contacts.css';
+@import '../blocks/header/__info/header_nav.css';
+@import '../blocks/header/__info/__nav/header_info.css';
+@import '../blocks/header/__info/__nav/__contacts/header__contacts.css';
+@import '../blocks/header/__info/__nav/__about/header__about.css';
 /* Main */
 @import '../blocks/main/main.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
-@import '../blocks/footer/__company-name/footer__company-name.css';
+@import '../blocks/footer/__text/__rights/footer__rights.css';
+@import '../blocks/footer/__text/__company-name/footer__company-name.css';
 @import '../blocks/footer/__text/footer__text.css';
 /* Slider */
 @import '../blocks/slider/__girl/slider__girl.css';
 @import '../blocks/slider/__purple-lines/slider__purple-lines.css';
 @import '../blocks/slider/__purple-pc/slider__purple-pc.css';
 @import '../blocks/slider/__shadow/slider__shadow.css';
-@import '../blocks/slider/__rgb-text/slider__rgb-text.css';
-@import '../blocks/slider/__rgb-text/__grey-text/slider__grey-text.css';
+@import '../blocks/slider/__text/slider__rgb-text.css';
+@import '../blocks/slider/__text/__rgb-text/slider__text.css';
+@import '../blocks/slider/__text/__rgb-text/__white-text/slider__white-text.css';
+@import '../blocks/slider/__text/__rgb-text/__grey-text/slider__grey-text.css';
 @import '../blocks/slider/slider.css';
 /* Processor */
 @import '../blocks/main/__processor/main__processor.css';
