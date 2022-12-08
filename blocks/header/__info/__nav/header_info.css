@@ -1,8 +1,8 @@
 .header__info{
-    width: auto;
+    width: 177px;
     height: 16px;
     margin-top: -38px;
-    margin-left: 1030px;
+    float: right;
     color: #ffffff;
 }
 
